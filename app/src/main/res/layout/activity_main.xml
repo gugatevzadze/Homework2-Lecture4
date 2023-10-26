@@ -11,7 +11,8 @@
         android:layout_width="265dp"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="შეიყვანეთ თქვენი ციფრი"
+        android:hint="შეიყვანეთ ციფრი [1..1000]"
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,6 +20,7 @@
         app:layout_constraintVertical_bias="0.14" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="238dp"
         android:layout_height="63dp"
         android:gravity="center"
@@ -34,11 +36,12 @@
         android:layout_width="352dp"
         android:layout_height="104dp"
         android:gravity="center"
-        android:text="თქვენი ციფრი"
-        android:textSize="20dp"
+        android:hint="თქვენი ციფრი"
+        android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.185" />
 </androidx.constraintlayout.widget.ConstraintLayout>
